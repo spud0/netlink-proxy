@@ -16,8 +16,8 @@
 #include <time.h>
 
 #define SOCKET_PATH "/tmp/nl-message.sock"
-#define MAX_CLIENTS 100
-#define MAX_EVENTS 10
+#define MAX_CLIENTS 240
+#define MAX_EVENTS 20
 
 int uds_fd;
 int epfd;
